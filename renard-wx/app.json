@@ -22,6 +22,7 @@
     "pages/cart/cart",
     "pages/shopping/checkout/checkout",
     "pages/goods/goods",
+    "pages/appointment/appointment",
     "pages/groupon/myGroupon/myGroupon",
     "pages/groupon/grouponDetail/grouponDetail",
     "pages/groupon/grouponList/grouponList"
@@ -54,6 +55,11 @@
         "pagePath": "pages/cart/cart",
         "iconPath": "images/tabbar/cart-f.png",
         "selectedIconPath": "images/tabbar/cart-o.png"
+      },
+      {
+        "pagePath": "pages/appointment/appointment",
+        "iconPath": "images/tabbar/appointment-f.png",
+        "selectedIconPath": "images/tabbar/appointment-o.png"
       },
       {
         "pagePath": "pages/ucenter/index/index",

@@ -71,5 +71,7 @@ module.exports = {
   GroupOnDetail: WxApiRoot + 'groupon/detail', //团购API-详情
   GroupOnJoin: WxApiRoot + 'groupon/join', //团购API-详情
 
-  StorageUpload: WxApiRoot + 'storage/upload' //图片上传
+  StorageUpload: WxApiRoot + 'storage/upload', //图片上传
+
+  Appointment: WxApiRoot + 'appointment/appointment' //预约
 };

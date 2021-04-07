@@ -19,7 +19,7 @@ Page({
   onShareAppMessage: function() {
     return {
       title: 'Renard',
-      desc: '唯爱与美食不可辜负',
+      desc: '在这里寻找最美的你',
       path: '/pages/index/index'
     }
   },
