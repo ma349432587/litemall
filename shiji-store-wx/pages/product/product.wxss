@@ -1,0 +1,134 @@
+.add-wrap {
+  position: fixed;
+  bottom: 80rpx;
+  display: flex;
+  right: 80rpx;
+  justify-content: center;
+}
+
+.flex-text-row {
+  display: flex;
+  flex-direction: column;
+  height: 250rpx;
+}
+
+.flex-text-row view {
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+
+.products-view .item {
+  height: 164rpx;
+  width: 100%;
+  overflow: hidden;
+}
+
+.flex-bottom-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.products-view .item .cart-goods {
+  float: left;
+  height: 164rpx;
+  width: 100%;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.products-view .item .img {
+  float: left;
+  height: 125rpx;
+  width: 125rpx;
+  background: #f4f4f4;
+  margin: 19.5rpx 18rpx 19.5rpx 0;
+}
+
+.products-view .item .info {
+  float: left;
+  height: 125rpx;
+  width: 503rpx;
+  margin: 19.5rpx 26rpx 19.5rpx 0;
+}
+
+.products-view .item .img {
+  float: left;
+  height: 125rpx;
+  width: 125rpx;
+  background: #f4f4f4;
+  margin: 19.5rpx 18rpx 19.5rpx 0;
+}
+
+
+
+.products-view .item .name {
+  height: 28rpx;
+  max-width: 310rpx;
+  line-height: 28rpx;
+  font-size: 25rpx;
+  color: #333;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+}
+
+.products-view .item .num {
+  height: 28rpx;
+  max-width: 310rpx;
+  line-height: 28rpx;
+  font-size: 25rpx;
+  color: gray;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+}
+
+.products-view .item .price {
+  height: 28rpx;
+  max-width: 310rpx;
+  line-height: 28rpx;
+  font-size: 25rpx;
+  color: #333;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+  color: red;
+}
+
+.products-view .item .t {
+  margin-top: 8rpx;
+  margin-bottom: 10rpx;
+}
+
+.products-view .item .m {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-view .item .b {
+  margin-bottom: 10rpx;
+}
+
+.commodity_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 1000;
+  color: #fff;
+}
+
+/*对话框 */
+.commodity_attr_box {
+  height: 600rpx;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  background: #fff;
+  padding-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="title">
+    <text>出库</text>
+  </view>
+  <view class='top'>
+    <view class='top-text'>选择店铺</view>
+    <!-- 下拉框 -->
+    <view class='top-selected' bindtap='bindShowMsg'>
+      <text>{{stockName}}</text>
+    </view>
+    <!-- 下拉需要显示的列表 -->
+    <view class="select_box" wx:if="{{select}}">
+      <view wx:for="{{stocks}}" wx:key="unique">
+        <view class="select_one" bindtap="selectStock" data-item="{{item}}">{{item.name}}</view>
+      </view>
+    </view>
+    <view class="select_box" wx:if="{{select}}">
+      <view wx:for="{{stocks}}" wx:key="unique">
+        <view class="select_one" bindtap="selectStock" data-item="{{item}}">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- 选商品 扫码 -->
+  <view class="flex-button">
+    <navigator class="flex-button-2" url="prodcut/prodcut">
+      <text>选商品</text>
+    </navigator>
+    <navigator class="flex-button-2" url="prodcut/prodcut">
+      <text>扫码</text>
+    </navigator>
+  </view>
+  <!-- 商品列表 -->
+  <view class="product-list">
+
+  </view>
+ 
+  <!-- 总价 下一步 -->
+  <view class="flex-list">
+    <navigator class="flex-button-2" url="prodcut/prodcut">
+      <text>选商品</text>
+    </navigator>
+    <navigator class="flex-button-2" url="prodcut/prodcut">
+      <text>扫码</text>
+    </navigator>
+  </view>
+</view>
